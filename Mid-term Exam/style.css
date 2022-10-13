@@ -1,0 +1,113 @@
+/* Color pallette
+#45B5AA
+#DECDBE
+#F0C05A
+#E2583E
+*/
+
+body {
+  margin: 20px;
+  padding: 10px;
+  font-family: arial, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #333333;
+  background-color: #45b5aa;
+}
+
+#wrapper {
+  width: 1200px;
+  background-color: #decdbe;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 25px;
+}
+
+.navLinks {
+  color: #e2583e;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.navLinks:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.mid {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+/* page banner background, and display */
+.banner {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.contact {
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  background-color: #f0c05a;
+}
+
+/* footer text margin */
+h6 {
+  margin: 15px;
+}
+
+/* realtors images */
+.realtor {
+  border-radius: 100px;
+}
+
+/* Agents flex box container */
+.agents,
+.listing {
+  display: flex;
+  margin: 20px;
+}
+
+.agentInfo,
+.listingInfo {
+  padding: 10px;
+}
+
+/* grid for the agents listing */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* testimonial */
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* --------------------------------- */
+
+.contactForm {
+  text-align: center;
+}
